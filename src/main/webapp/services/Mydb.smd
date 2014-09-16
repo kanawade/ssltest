@@ -1,0 +1,5 @@
+{
+	"methods": [],
+	"serviceURL": "Mydb.json",
+	"serviceType": "JSON-RPC"
+}

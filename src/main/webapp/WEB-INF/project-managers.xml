@@ -3,6 +3,17 @@
     <bean class="com.wavemaker.runtime.service.TypeManager" parent="typeManagerBase" scope="singleton" id="typeManager">
         <property name="types">
             <map merge="true">
+                <entry key="Mydb">
+                    <list/>
+                </entry>
+                <entry key="hrdb">
+                    <list>
+                        <value>com.hrdb.Employee</value>
+                        <value>com.hrdb.Vacation</value>
+                        <value>com.hrdb.Department</value>
+                        <value>com.hrdb.User</value>
+                    </list>
+                </entry>
                 <entry key="securityService">
                     <list/>
                 </entry>
